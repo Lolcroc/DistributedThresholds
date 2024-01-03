@@ -1,0 +1,18 @@
+{
+    "errors": [
+        {
+            "name": "primal",
+            "probabilities": ["1-p", "p"],
+            "error_locations": [
+                ["f_x"], ["f_y"], ["f_z"]
+            ]
+        },
+        {
+            "name": "dual",
+            "probabilities": ["1-p", "p"],
+            "error_locations": [
+                ["e_x"], ["e_y"], ["e_z"]
+            ]
+        }
+    ]
+}

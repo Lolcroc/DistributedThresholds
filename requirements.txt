@@ -1,0 +1,10 @@
+galois
+more-itertools
+networkx==2.7.1
+matplotlib
+numba
+numpy
+pandas
+pytest
+qiskit==0.35  # We are using DAGOpNode functionality that was added in 0.33
+sympy

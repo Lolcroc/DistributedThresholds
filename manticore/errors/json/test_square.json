@@ -1,0 +1,14 @@
+{
+    "errors": [
+        {
+            "name": "primal",
+            "probabilities": ["1-p", "*"],
+            "erasure_locations": [
+                ["e_x"]
+            ],
+            "error_locations": [
+                ["e_x", "e_y", "e_x:0,1", "e_y:0,1"]
+            ]
+        }
+    ]
+}

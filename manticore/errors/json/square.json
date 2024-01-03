@@ -1,0 +1,13 @@
+{
+    "name": "square",
+    "dimension": 2,
+    "elements": ["f", "e_x", "e_y", "v"],
+    "boundaries": {
+        "f": ["e_x", "e_y", ["e_x", 0, 1], ["e_y", 1, 0]],
+        "e_x": ["v", ["v", 1, 0]],
+        "e_y": ["v", ["v", 0, 1]]
+    },
+    "element_data": {
+        "v": {"hello": 32}
+    }
+}
